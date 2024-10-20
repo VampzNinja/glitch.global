@@ -45,12 +45,12 @@ iptables -I OUTPUT -d cloud.vmp.onezapp.com -j REJECT
 iptables -I INPUT -s cloud.vmp.onezapp.com -j REJECT
 
 echo "Your Guest ID has been reset successfully."
-echo "Script created by @FURYx307"
+echo "Script created by @Ninja"
 exit
 
 ;;
 "Exit")
-echo "Script created by @FURYx307"
+echo "Script created by @Ninja"
 exit # exit script
 ;;
 *) echo "Invalid option $REPLY";;
